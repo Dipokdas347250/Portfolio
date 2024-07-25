@@ -10,15 +10,15 @@ import Dipok from "../assets/Dipok d.jpg"
 const Banner = () => {
   return (
     <>
-      <section className=' py-[100px] bg-[#FFF9E3]'>
-      <div className="w-[15%] fixed ">
+      <section className=' lg:py-[100px] py-[50px] bg-[#FFF9E3]'>
+      {/* <div className="w-[15%] fixed ">
               <div className=" py-[100px]">
-                <div className="  p-3 relative cursor-pointer  ">
+                <div className="  p-3 relative cursor-pointer    ">
 
-                  <div className=" flex justify-between after:rounded-full after:duration-300 after:absolute after:contain-[''] after:top-0 after:left-0 after:h-[50px] after:w-[50px] after:bg-[blue] hover:after:w-[80%] py-7 ">
+                  <div className="  flex justify-between group overflow-hidden  after:rounded-full after:duration-300 after:absolute after:contain-[''] after:top-0 after:left-0 after:h-[50px] after:w-[50px] after:bg-[blue] hover:after:w-[80%] py-7 ">
                     <i className='text-[26px] z-50 absolute top-[12px]'>< FaHome/></i>
 
-                    <h2 className=' text-[#fff] font-serif font-semibold text-[18px] absolute top-0 left-0 z-50 opacity-0 hover:opacity-100 hover:top-[8px] hover:left-[30%] '> Home</h2>
+                    <h2 className='  text-[#fff] font-serif font-semibold text-[18px] absolute top-0 left-0 z-50 opacity-0 hover:opacity-100 hover:top-[8px] group:hover:left-[50px] '> Home</h2>
                   </div>
                 </div>
                 <div className="  p-3 relative cursor-pointer ">
@@ -55,17 +55,17 @@ const Banner = () => {
                 </div>
               </div>
 
-            </div>
+            </div> */}
         <Container>
           <Flex className="justify-around">
             
             
-            <div className="w-[55%] ">
-              <div className="  pt-16 ">
-                <h5 className='text-[28px] font-serif  font-bold  ml-[80px]  '>- I am .</h5>
-                <h2 className='  text-[56px] font-serif  font-bold  ml-[80px]  '><span className='text-[28px] '></span> Dipok Chandra Das</h2>
-                <h3 className='text-[32px] font-serif  font-semibold  ml-[80px] text-[#3BB9FF]  '>MERN Stack Developer</h3>
-                <p className='font-serif text-[22px] font-medium  w-[80%] mt-[80px] ml-[80px]'> I am Dipok das . MERN Stack Developer focused on crafting clean & user-friendly experiences , i am passionate about building excellent software that improves the loves of those around me. </p>
+            <div className="lg:w-[55%] w-full ">
+              <div className="  lg:pt-16 ">
+                <h5 className='lg:text-[28px] font-serif  font-bold  ml-[20px]  '>- I am .</h5>
+                <h2 className='  lg:text-[56px] font-serif  font-bold  ml-[20px]  '><span className='text-[28px] '></span> Dipok Chandra Das</h2>
+                <h3 className='lg:text-[32px] font-serif  font-semibold  ml-[20px] text-[#3BB9FF]  '>MERN Stack Developer</h3>
+                <p className='font-serif lg:text-[22px] font-medium  lg:w-[80%] w-full lg:mt-[80px] ml-[20px]'> I am Dipok das . MERN Stack Developer focused on crafting clean & user-friendly experiences , i am passionate about building excellent software that improves the loves of those around me. </p>
                 <div className="flex gap-x-10 pt-[70px] ml-[80px]">
                   <a className='h-[60px] w-[60px] bg-[#3BB9FF] rounded-full text-[32px] text-[#000] p-[14px]' href="https://www.facebook.com/dipak.chandradas.104?mibextid=ZbWKwL" target='blank'><FaFacebookSquare /></a>
                   <a className='h-[60px] w-[60px] bg-[#3BB9FF] rounded-full text-[32px] text-[#000] p-[14px]' href="https://www.linkedin.com/in/dipok-chandra-das-75a549305?" target='blank'><FaLinkedin /></a>
@@ -79,10 +79,10 @@ const Banner = () => {
                 </div>
               </div>
             </div>
-            <div className="w-[40%]   ">
+            <div className="lg:w-[40%] w-full   ">
               <div className="  ">
 
-                <img className="rounded-[20px] shadow-2xl shadow-stone-950 origin-top-left rotate-12 ... " src={Dipok} alt="" />
+                <img className="lg:rounded-[20px]  rounded-full shadow-2xl shadow-stone-950 lg:origin-top-left lg:rotate-12 ... " src={Dipok} alt="" />
               </div>
             </div>
           </Flex>

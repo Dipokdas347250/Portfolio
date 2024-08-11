@@ -84,7 +84,7 @@ const Banner = () => {
               </div>
               <div className="mt-[50px]">
                 <div className=" flex justify-center items-center overflow-hidden  transform-[1.5] p-[10px]   ">
-                  <button className='   py-[15px] px-[40px] border-0 outline-none text-[#fff] rounded-2xl relative z-0 after:absolute after:content-[""] after:w-full after:h-full after:-z-10 after:top-0 after:left-0 after:rounded-xl after:bg-[#000] active:after:bg-transparent before:absolute before:content-[""] before:bg-gradient-to-tl  before:from-[#ADF802] before:via-black before:to-[#0000FF] before:top-[-10px] before:left-[-10px] before:size-40 before:-z-10 before:w-[100% +10px] before:h-[100% + 10px] before:blur-[10px]  before:duration-300 before:ease-in-out before:opacity-0  before:rounded-lg  before:animate-ping  hover:before:opacity-100   active:text-[#000]'>Contacts</button>
+                  <button className='   py-[15px] px-[40px] border-0 outline-none text-[#000] font-serif text-[18px] font-medium rounded-2xl relative z-0 after:absolute after:content-[""] after:w-full after:h-full after:-z-10 after:top-0 after:left-0 after:rounded-xl after:bg-[#3BB9FF] active:after:bg-transparent before:absolute before:content-[""] before:bg-gradient-to-tl  before:from-[#ADF802] before:via-black before:to-[#0000FF] before:top-[-10px] before:left-[-10px] before:size-40 before:-z-10 before:w-[100% +10px] before:h-[100% + 10px] before:blur-[10px]  before:duration-500 before:ease-in-out before:opacity-0  before:rounded-lg  before:animate-spin  hover:before:opacity-100   active:text-[#000]'>Contacts</button>
                 </div>
               </div>
             </div>

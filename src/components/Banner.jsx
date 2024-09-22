@@ -5,7 +5,7 @@ import { FaHome, FaFacebookSquare, FaLinkedin, FaGithubSquare, FaGraduationCap }
 import { IoIosContact } from "react-icons/io";
 import { RiContactsBookFill } from "react-icons/ri";
 import { SiMicrodotblog } from "react-icons/si";
-import Dipok from "../assets/Dipok d.jpg"
+import Dipok from "../assets/06.jpg"
 import { ReactTyped } from "react-typed";
 
 const Banner = () => {
@@ -83,15 +83,17 @@ const Banner = () => {
 
               </div>
               <div className="mt-[50px]">
-                <div className=" flex justify-center items-center overflow-hidden  transform-[1.5] p-[10px]   ">
-                  <button className='   py-[15px] px-[40px] border-0 outline-none text-[#000] font-serif text-[18px] font-medium rounded-2xl relative z-0 after:absolute after:content-[""] after:w-full after:h-full after:-z-10 after:top-0 after:left-0 after:rounded-xl after:bg-[#3BB9FF] active:after:bg-transparent before:absolute before:content-[""] before:bg-gradient-to-tl  before:from-[#ADF802] before:via-black before:to-[#0000FF] before:top-[-10px] before:left-[-10px] before:size-40 before:-z-10 before:w-[100% +10px] before:h-[100% + 10px] before:blur-[10px]  before:duration-500 before:ease-in-out before:opacity-0  before:rounded-lg  before:animate-spin  hover:before:opacity-100   active:text-[#000]'>Contacts</button>
+               
+                <div className=" relative  flex justify-between w-[30%] items-center py-4 px-4 border-2 border-[#000] rounded-full cursor-pointer after:absolute after:contain-[''] after:top-0 after:left-0 after:h-full after:w-[33%] after:rounded-full after:bg-[#3BB9FF] after:duration-300 after:ease-in-out after:hover:w-full ">
+                  <IoIosContact className='text-[36px] z-50'/>
+                  <h3 className='font-serif text-[18px] font-medium mr-2 z-50  '>Contacts</h3>
                 </div>
               </div>
             </div>
             <div className="lg:w-[40%] w-full   ">
               <div className="  ">
 
-                <img className="lg:rounded-[20px]  rounded-full shadow-2xl shadow-stone-950 lg:origin-top-left lg:rotate-12 ... " src={Dipok} alt="" />
+                <img className="lg:rounded-[20px] w-full  rounded-full shadow-2xl shadow-stone-950 lg:origin-top-left lg:rotate-12 ... " src={Dipok} alt="" />
               </div>
             </div>
           </Flex>

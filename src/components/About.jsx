@@ -48,18 +48,16 @@ const About = () => {
                   <h2 className='font-serif font-medium text-[16px] text-[#616D7E]  '>Email : <span className='text-[#000] font-semibold text-[18px]'>dipakdas24680@gmail.com </span></h2>
                    
                   </div>
-                  <div className="">
-                <div className="h-[50px] w-[200px] flex justify-around items-center border-2 border-[#000] text-center rounded-full mt-[70px]  duration-300 ease-in-out hover:text-[#ffff] hover:bg-[#3BB9FF] cursor-pointer">
-                  <Link to="/Cv">
-                  <h4 className='font-serif text-[18px] font-medium leading-[45px]'>Download CV</h4>
-                  </Link>
-                  <a href=""></a>
-                  <IoIosCodeDownload  className='   h-[50px] w-[60px]  '/>
-                </div>
-                </div>
+                 
                 </div>
                 
               </div>
+              <div className="mt-12">
+                 <div className=" relative  flex justify-between w-[40%] items-center py-4 px-4 border-2 border-[#000] rounded-full cursor-pointer after:absolute after:contain-[''] after:top-0 after:left-0 after:h-full after:w-[30%] after:rounded-full after:bg-[#3BB9FF] after:duration-300 after:ease-in-out after:hover:w-full ">
+                  <IoIosCodeDownload className='text-[36px] z-50'/>
+                  <h3 className='font-serif text-[18px] font-medium mr-2 z-50  '>Downlode CV</h3>
+                </div>
+                </div>
             </div>
             <div className="w-[45%] pt-[70px] ">
               <div className=" flex justify-around">

@@ -1,10 +1,11 @@
 import React from 'react'
 import Container from './Container'
 import Flex from './Flex'
-import { FaHome, FaFacebookSquare, FaLinkedin, FaGithubSquare, FaGraduationCap } from "react-icons/fa";
+import { FaHome, FaFacebookSquare, FaLinkedin, FaGithubSquare, FaTwitter } from "react-icons/fa";
 import { IoIosContact } from "react-icons/io";
 import { RiContactsBookFill } from "react-icons/ri";
 import { SiMicrodotblog } from "react-icons/si";
+import Das from "../assets/Dipok das.png"
 import Dipok from "../assets/06.jpg"
 import { ReactTyped } from "react-typed";
 
@@ -62,38 +63,37 @@ const Banner = () => {
 
 
             <div className="lg:w-[55%] w-full ">
-              <div className="  lg:pt-16 ">
+              <div className="   ">
 
                 <h5 className='lg:text-[28px] font-serif  font-bold  ml-[20px]  '>- I am .</h5>
                 <ReactTyped className='lg:text-[56px] font-serif  font-bold  ml-[20px] ' strings={[" Dipok Chandra Das"]} typeSpeed={200} backSpeed={150} loop={true} />
                 
                 <h3 className='lg:text-[32px] font-serif  font-semibold  ml-[20px] text-[#3BB9FF]  '>MERN Stack Developer</h3>
                 <p className='font-serif lg:text-[22px] font-medium  lg:w-[80%] w-full lg:mt-[50px] ml-[20px]'> I am Dipok das . MERN Stack Developer focused on crafting clean & user-friendly experiences , i am passionate about building excellent software that improves the loves of those around me. </p>
-                <div className="flex gap-x-10 pt-[70px] ml-[80px]">
-                  <a className='h-[60px] w-[60px] bg-[#3BB9FF] rounded-full text-[32px] text-[#000] p-[14px]' href="https://www.facebook.com/dipak.chandradas.104?mibextid=ZbWKwL" target='blank'><FaFacebookSquare /></a>
-                  <a className='h-[60px] w-[60px] bg-[#3BB9FF] rounded-full text-[32px] text-[#000] p-[14px]' href="https://www.linkedin.com/in/dipok-chandra-das-75a549305?" target='blank'><FaLinkedin /></a>
-                  <a className='h-[60px] w-[60px] bg-[#3BB9FF] rounded-full text-[32px] text-[#000] p-[14px]' href="https://github.com/Dipokdas347250" target='blank'><FaGithubSquare /></a>
+                <div className="flex gap-x-10 pt-[70px] ml-5">
+                  <a className='py-4 px-4 bg-[#3BB9FF] rounded-full text-[32px] text-[#000] p-[14px]' href="https://www.facebook.com/dipak.chandradas.104?mibextid=ZbWKwL" target='blank'><FaFacebookSquare /></a>
+                  <a className='py-4 px-4 bg-[#3BB9FF] rounded-full text-[32px] text-[#000] p-[14px]' href="https://www.linkedin.com/in/dipok-chandra-das-75a549305?" target='blank'><FaLinkedin /></a>
+                  <a className='py-4 px-4 bg-[#3BB9FF] rounded-full text-[32px] text-[#000] p-[14px]' href="https://github.com/Dipokdas347250" target='blank'><FaGithubSquare /></a>
+                  <a className='py-4 px-4 bg-[#3BB9FF] rounded-full text-[32px] text-[#000] p-[14px]' href="https://x.com/DipakDas19940?t=1__0t9nOT8WTK0xEh-yIwA&s=07" target='blank'><FaTwitter /></a>
 
 
 
                 </div>
-                {/* <div className="h-[50px] w-[150px] border-2 border-[#000] text-center rounded-full mt-[70px] ml-[200px] duration-300 ease-in-out hover:text-[#ffff] hover:bg-[#3BB9FF] cursor-pointer">
-                  <h4 className='font-serif text-[18px] font-medium leading-[45px]'>Contacts</h4>
-                </div> */}
+                
 
               </div>
-              <div className="mt-[50px]">
+              <div className="mt-12 ml-5">
                
-                <div className=" relative  flex justify-between w-[30%] items-center py-4 px-4 border-2 border-[#000] rounded-full cursor-pointer after:absolute after:contain-[''] after:top-0 after:left-0 after:h-full after:w-[33%] after:rounded-full after:bg-[#3BB9FF] after:duration-300 after:ease-in-out after:hover:w-full ">
-                  <IoIosContact className='text-[36px] z-50'/>
+                <div className=" relative  flex justify-between lg:w-[30%] w-[60%] items-center py-4 px-4 border-2 border-[#3BB9FF] rounded-full cursor-pointer duration-300 ease-in-out hover:text-white after:absolute after:contain-[''] after:top-0 after:left-0 after:h-full after:w-[33%] after:rounded-full after:bg-[#3BB9FF] after:duration-300 after:ease-in-out after:hover:w-full  ">
+                  <IoIosContact className='text-[36px] z-50 text-white'/>
                   <h3 className='font-serif text-[18px] font-medium mr-2 z-50  '>Contacts</h3>
                 </div>
               </div>
             </div>
-            <div className="lg:w-[40%] w-full   ">
+            <div className="lg:w-[45%]   ">
               <div className="  ">
 
-                <img className="lg:rounded-[20px] w-full  rounded-full shadow-2xl shadow-stone-950 lg:origin-top-left lg:rotate-12 ... " src={Dipok} alt="" />
+                <img className="  lg:rounded-[20px]  w-full  rounded-full shadow-2xl shadow-stone-950  " src={Dipok} alt="" />
               </div>
             </div>
           </Flex>

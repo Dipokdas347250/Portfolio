@@ -53,8 +53,8 @@ const About = () => {
                 
               </div>
               <div className="mt-12">
-                 <div className=" relative  flex justify-between w-[40%] items-center py-4 px-4 border-2 border-[#000] rounded-full cursor-pointer after:absolute after:contain-[''] after:top-0 after:left-0 after:h-full after:w-[30%] after:rounded-full after:bg-[#3BB9FF] after:duration-300 after:ease-in-out after:hover:w-full ">
-                  <IoIosCodeDownload className='text-[36px] z-50'/>
+                 <div className=" relative  flex justify-between w-[40%] items-center py-4 px-4 border-2 border-[#3BB9FF] rounded-full cursor-pointer duration-300 ease-in-out hover:text-white after:absolute after:contain-[''] after:top-0 after:left-0 after:h-full after:w-[30%] after:rounded-full after:bg-[#3BB9FF] after:duration-300 after:ease-in-out after:hover:w-full ">
+                  <IoIosCodeDownload className='text-[36px] text-white z-50'/>
                   <h3 className='font-serif text-[18px] font-medium mr-2 z-50  '>Downlode CV</h3>
                 </div>
                 </div>

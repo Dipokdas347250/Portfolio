@@ -19,12 +19,12 @@ const Header = () => {
 
     return (
         <>
-            <header className='py-6 px-3 bg-[red]  '>
+            <header className='py-6 px-3 bg-[red] '>
                 <Container >
                     <Flex className=" justify-center items-center">
                         <div className="w-[25%]">
                            <div className="">
-                             <img className='' src={Logo} alt="" />
+                             <img className='mx-3' src={Logo} alt="" />
                             
                            </div>
                         </div>

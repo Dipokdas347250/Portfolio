@@ -10,14 +10,14 @@ import { RiSendPlaneFill } from "react-icons/ri";
 const Contacts = () => {
   return (
     <>
-      <section className=' py-20'>
+      <section className=' lg:py-20 py-10 px-3 animate-slideIn'>
         <Container>
           <div className="">
-            <h2 className=' relative font-extrabold text-[110px] text-center opacity-10  uppercase   '>Contacts</h2>
-            <h3 className='text-center font-semibold text-[56px] font-serif mt-[-125px] relative after:absolute after:contain-[""] after:h-[2px] after:w-[350px]  after:bottom-0 after:left-[50%] after:translate-x-[-50%] after:bg-[#000] '>Get <span className='text-[#3BB9FF]'> in touch!</span> </h3>
+            <h2 className=' relative font-extrabold lg:text-[110px] text-[60px] text-center opacity-10  uppercase   '>Contacts</h2>
+            <h3 className='text-center font-semibold lg:text-[56px] text-[36px] font-serif lg:mt-[-125px] mt-[-70px] relative after:absolute after:contain-[""] after:h-[2px] lg:after:w-[350px] after:w-[230px]  after:bottom-0 after:left-[50%] after:translate-x-[-50%] after:bg-[#000] '>Get <span className='text-[#3BB9FF]'> in touch!</span> </h3>
           </div>
-          <div className=" flex justify-between mt-16">
-            <div className="w-[35%]">
+          <div className=" lg:flex justify-between mt-16">
+            <div className="lg:w-[35%] w-full">
               <div className="">
                 <h2 className='text-[#000] font-bold text-[36px]'>Don't be shy !</h2>
                 <p className='text-[#000] font-semibold text-[20px]'>Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.</p>
@@ -40,7 +40,7 @@ const Contacts = () => {
                   <h3 className='text-[#000] font-semibold text-[18px]'>+88017123456678</h3>
                 </div>
               </div>
-              <div className="flex gap-x-10 mt-5 ">
+              <div className="flex lg:gap-x-10 gap-x-5 mt-5 ">
                 <a className='py-4 px-4 bg-[#3BB9FF] rounded-full text-[32px] text-[#000] p-[14px]' href="https://www.facebook.com/dipak.chandradas.104?mibextid=ZbWKwL" target='blank'><FaFacebookSquare /></a>
                 <a className='py-4 px-4 bg-[#3BB9FF] rounded-full text-[32px] text-[#000] p-[14px]' href="https://www.linkedin.com/in/dipok-chandra-das-75a549305?" target='blank'><FaLinkedin /></a>
                 <a className='py-4 px-4 bg-[#3BB9FF] rounded-full text-[32px] text-[#000] p-[14px]' href="https://github.com/Dipokdas347250" target='blank'><FaGithubSquare /></a>
@@ -50,16 +50,16 @@ const Contacts = () => {
 
               </div>
             </div>
-            <div className="w-[65%]">
+            <div className="lg:w-[65%] w-full">
               <form action="">
-                <div className=" flex justify-between px-3 mt-5">
-                  <div className="w-[32%]">
+                <div className=" lg:flex justify-between px-3 mt-5 ">
+                  <div className="lg:w-[32%] w-full">
                     <input className='h-[50px] w-full border-2 border-[#3BB9FF] rounded-lg pl-2' type="text" placeholder='Your Name*' />
                   </div>
-                  <div className="w-[32%]">
-                    <input className='h-[50px] w-full border-2 border-[#3BB9FF] rounded-lg pl-2' type="text" placeholder='Your E-mail*' />
+                  <div className="lg:w-[32%] w-full">
+                    <input className='h-[50px] w-full border-2 border-[#3BB9FF] rounded-lg pl-2 mt-2 lg:mt-0 mb-2 lg:mb-0' type="text" placeholder='Your E-mail*' />
                   </div>
-                  <div className="w-[32%]">
+                  <div className="lg:w-[32%] w-full">
                     <input className='h-[50px] w-full border-2 border-[#3BB9FF] rounded-lg pl-2' type="text" placeholder='Your Sebject*' />
                   </div>
                  
@@ -71,7 +71,7 @@ const Contacts = () => {
 
                   </div>
               </form>
-              <div className=" ml-3 mt-8 relative  flex justify-between w-[30%] items-center py-4 px-4 border-2 border-[#3BB9FF] rounded-full cursor-pointer duration-300 ease-in-out hover:text-white after:absolute after:contain-[''] after:top-0 after:right-0 after:h-full after:w-[28%] after:rounded-full after:bg-[#3BB9FF] after:duration-300 after:ease-in-out after:hover:w-full ">
+              <div className=" ml-3 mt-8 relative  flex justify-between lg:w-[30%] w-[80%] items-center py-4 px-4 border-2 border-[#3BB9FF] rounded-full cursor-pointer duration-300 ease-in-out hover:text-white after:absolute after:contain-[''] after:top-0 after:right-0 after:h-full after:w-[28%] after:rounded-full after:bg-[#3BB9FF] after:duration-300 after:ease-in-out after:hover:w-full ">
                   <h3 className='font-serif text-[18px] font-medium mr-2 z-50  '>Send Messege </h3>
                   <RiSendPlaneFill className='text-[36px] text-white z-50'/>
                 </div>

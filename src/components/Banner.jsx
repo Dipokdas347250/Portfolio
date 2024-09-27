@@ -12,7 +12,7 @@ import { ReactTyped } from "react-typed";
 const Banner = () => {
   return (
     <>
-      <section className=' lg:py-[100px] py-[50px] bg-[#FFF9E3]'>
+      <section className=' lg:py-[100px] py-[50px] bg-[#FFF9E3] animate-slideIn px-2'>
         {/* <div className="w-[15%] fixed ">
               <div className=" py-[100px]">
                 <div className="  p-3 relative cursor-pointer    ">
@@ -59,18 +59,25 @@ const Banner = () => {
 
             </div> */}
         <Container>
-          <Flex className="justify-around">
+          <Flex className="justify-around flex-wrap ">
 
+          <div className="lg:w-[45%]   ">
+              <div className="  ">
+
+                <img className="  lg:rounded-[20px]  w-full  rounded-full shadow-2xl shadow-stone-950  " src={Dipok} alt="" />
+              </div>
+            </div>
 
             <div className="lg:w-[55%] w-full ">
-              <div className="   ">
+              <div className=" lg:ml-14  ">
 
-                <h5 className='lg:text-[28px] font-serif  font-bold  ml-[20px]  '>- I am .</h5>
-                <ReactTyped className='lg:text-[56px] font-serif  font-bold  ml-[20px] ' strings={[" Dipok Chandra Das"]} typeSpeed={200} backSpeed={150} loop={true} />
+                <h5 className='lg:text-[28px] text-[24px] font-serif  font-bold  ml-[20px]  '>- I am .</h5>
+                <ReactTyped className='lg:text-[56px] text-[28px] font-serif  font-bold  ml-[20px] ' strings={[" Dipok Chandra Das"]} typeSpeed={200} backSpeed={150} loop={true} />
                 
-                <h3 className='lg:text-[32px] font-serif  font-semibold  ml-[20px] text-[#3BB9FF]  '>MERN Stack Developer</h3>
-                <p className='font-serif lg:text-[22px] font-medium  lg:w-[80%] w-full lg:mt-[50px] ml-[20px]'> I am Dipok das . MERN Stack Developer focused on crafting clean & user-friendly experiences , i am passionate about building excellent software that improves the loves of those around me. </p>
-                <div className="flex gap-x-10 pt-[70px] ml-5">
+                
+                <h3 className='lg:text-[32px] text-[24px] font-serif  font-semibold  ml-[20px] text-[#3BB9FF]  '>MERN Stack Developer</h3>
+                <p className='font-serif lg:text-[22px] font-medium   lg:w-full w-[90%] lg:mt-[20px] ml-[20px] '> I am Dipok das . MERN Stack Developer focused on crafting clean & user-friendly experiences , i am passionate about building excellent software that improves the loves of those around me. </p>
+                <div className="flex lg:gap-x-10 gap-x-5 pt-[70px] ml-5 ">
                   <a className='py-4 px-4 bg-[#3BB9FF] rounded-full text-[32px] text-[#000] p-[14px]' href="https://www.facebook.com/dipak.chandradas.104?mibextid=ZbWKwL" target='blank'><FaFacebookSquare /></a>
                   <a className='py-4 px-4 bg-[#3BB9FF] rounded-full text-[32px] text-[#000] p-[14px]' href="https://www.linkedin.com/in/dipok-chandra-das-75a549305?" target='blank'><FaLinkedin /></a>
                   <a className='py-4 px-4 bg-[#3BB9FF] rounded-full text-[32px] text-[#000] p-[14px]' href="https://github.com/Dipokdas347250" target='blank'><FaGithubSquare /></a>
@@ -82,20 +89,15 @@ const Banner = () => {
                 
 
               </div>
-              <div className="mt-12 ml-5">
+              <div className="mt-12 lg:ml-20 ml-5">
                
-                <div className=" relative  flex justify-between lg:w-[30%] w-[60%] items-center py-4 px-4 border-2 border-[#3BB9FF] rounded-full cursor-pointer duration-300 ease-in-out hover:text-white after:absolute after:contain-[''] after:top-0 after:left-0 after:h-full after:w-[33%] after:rounded-full after:bg-[#3BB9FF] after:duration-300 after:ease-in-out after:hover:w-full  ">
+                <div className=" relative  flex justify-between lg:w-[30%] w-[60%] items-center py-4 px-4 border-2 border-[#3BB9FF] rounded-full cursor-pointer duration-300 ease-in-out hover:text-white after:absolute after:contain-[''] after:top-0 after:left-0 after:h-full after:w-[37%] after:rounded-full after:bg-[#3BB9FF] after:duration-300 after:ease-in-out after:hover:w-full  ">
                   <IoIosContact className='text-[36px] z-50 text-white'/>
                   <h3 className='font-serif text-[18px] font-medium mr-2 z-50  '>Contacts</h3>
                 </div>
               </div>
             </div>
-            <div className="lg:w-[45%]   ">
-              <div className="  ">
-
-                <img className="  lg:rounded-[20px]  w-full  rounded-full shadow-2xl shadow-stone-950  " src={Dipok} alt="" />
-              </div>
-            </div>
+           
           </Flex>
         </Container>
       </section>

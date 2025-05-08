@@ -14,7 +14,7 @@ let router = createBrowserRouter(createRoutesFromElements(
     <Route path="/About" element={<About/>}></Route>
     <Route path="/Portfolio" element={<Portfolio/>}></Route>
     <Route path="/Contacts" element={<Contacts/>}></Route>
-    <Route path="/Contacts" element={<Contacts/>}></Route>
+   
     {/* <Route path="/Cv" element={<Cv/>}></Route> */}
   </Route>
 ))

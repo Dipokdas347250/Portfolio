@@ -1,18 +1,19 @@
 import React from 'react'
 import Container from './Container'
 import Flex from './Flex'
-import { FaHome, FaFacebookSquare, FaLinkedin, FaGithubSquare, FaTwitter } from "react-icons/fa";
+import { FaHome, FaFacebookSquare, FaLinkedin, FaGithubSquare, FaTwitter,FaGraduationCap } from "react-icons/fa";
 import { IoIosContact } from "react-icons/io";
 import { RiContactsBookFill } from "react-icons/ri";
 import { SiMicrodotblog } from "react-icons/si";
 import Das from "../assets/Dipok das.png"
-import Dipok from "../assets/06.jpg"
+import Dipok from "../assets/Dipok0.jpg"
+import DD from "../assets/Ddd.mp4"
 import { ReactTyped } from "react-typed";
 
 const Banner = () => {
   return (
     <>
-      <section className=' lg:py-[100px] py-[50px] bg-[#FFF9E3] animate-slideIn px-2'>
+      <section className=' lg:py-[200px] py-[50px] bg-[#FFF9E3] animate-slideIn px-2 mt-3'>
         {/* <div className="w-[15%] fixed ">
               <div className=" py-[100px]">
                 <div className="  p-3 relative cursor-pointer    ">
@@ -59,7 +60,7 @@ const Banner = () => {
 
             </div> */}
         <Container>
-          <Flex className="justify-around flex-wrap ">
+          <Flex className="justify-around flex-wrap items-center">
 
           <div className="lg:w-[45%]   ">
               <div className="  ">
@@ -72,11 +73,15 @@ const Banner = () => {
               <div className=" lg:ml-14  ">
 
                 <h5 className='lg:text-[28px] text-[24px] font-serif  font-bold  ml-[20px]  '>- I am .</h5>
-                <ReactTyped className='lg:text-[56px] text-[28px] font-serif  font-bold  ml-[20px] ' strings={[" Dipok Chandra Das"]} typeSpeed={200} backSpeed={150} loop={true} />
+                <h1 className='lg:text-[56px] text-[28px] font-serif  font-bold  ml-[20px] '> Dipok Chandra Das</h1>
+                <div className=" flex items-center  ml-[20px]">
+                  <h4 className='lg:text-[32px] text-[24px] font-serif  font-semibold  text-[#3BB9FF]  '> Front-end Developer With </h4>
+                <ReactTyped  className='lg:text-[32px] text-[24px] font-serif  font-semibold  ml-[20px] text-[#3BB9FF] '    strings={[" React", "Tailwind" , "Webflow"]} typeSpeed={200} backSpeed={150} loop={true} />
+
+                </div>
                 
                 
-                <h3 className='lg:text-[32px] text-[24px] font-serif  font-semibold  ml-[20px] text-[#3BB9FF]  '>MERN Stack Developer</h3>
-                <p className='font-serif lg:text-[22px] font-medium   lg:w-full w-[90%] lg:mt-[20px] ml-[20px] '> I am Dipok das . MERN Stack Developer focused on crafting clean & user-friendly experiences , i am passionate about building excellent software that improves the loves of those around me. </p>
+                <p className='font-serif lg:text-[22px] font-medium   lg:w-full w-[90%] lg:mt-[20px] ml-[20px] '> I am Dipok das . Front-end Developer focused on crafting clean & user-friendly experiences , i am passionate about building excellent software that improves the loves of those around me. </p>
                 <div className="flex lg:gap-x-10 gap-x-5 pt-[70px] ml-5 ">
                   <a className='py-4 px-4 bg-[#3BB9FF] rounded-full text-[32px] text-[#000] p-[14px]' href="https://www.facebook.com/dipak.chandradas.104?mibextid=ZbWKwL" target='blank'><FaFacebookSquare /></a>
                   <a className='py-4 px-4 bg-[#3BB9FF] rounded-full text-[32px] text-[#000] p-[14px]' href="https://www.linkedin.com/in/dipok-chandra-das-75a549305?" target='blank'><FaLinkedin /></a>
@@ -91,12 +96,16 @@ const Banner = () => {
               </div>
               <div className="mt-12 lg:ml-20 ml-5">
                
-                <div className=" relative  flex justify-between lg:w-[30%] w-[60%] items-center py-4 px-4 border-2 border-[#3BB9FF] rounded-full cursor-pointer duration-300 ease-in-out hover:text-white after:absolute after:contain-[''] after:top-0 after:left-0 after:h-full after:w-[37%] after:rounded-full after:bg-[#3BB9FF] after:duration-300 after:ease-in-out after:hover:w-full  ">
+                <div className=" relative  flex justify-between lg:w-[30%] w-[60%] items-center py-4 px-4 border-2 border-[#3BB9FF] rounded-full cursor-pointer duration-300 ease-in-out hover:text-white after:absolute after:contain-[''] after:top-0 after:left-0 after:h-full after:w-[30%] after:rounded-full after:bg-[#3BB9FF] after:duration-300 after:ease-in-out after:hover:w-full  ">
                   <IoIosContact className='text-[36px] z-50 text-white'/>
-                  <h3 className='font-serif text-[18px] font-medium mr-2 z-50  '>Contacts</h3>
+                  <a href="Contacts" className='font-serif text-[18px] font-medium  z-50'>Contacts</a>
+                  <h3 ></h3>
                 </div>
               </div>
             </div>
+            {/* <div className="w-full">
+              <iframe className='w-[80%] aspect-video ...' src={DD} frameborder="0"></iframe>
+            </div> */}
            
           </Flex>
         </Container>

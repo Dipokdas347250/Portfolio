@@ -53,11 +53,14 @@ const About = () => {
                 
               </div>
               <div className="mt-12">
-                 <div className=" relative  flex justify-between lg:w-[40%] w-[70%] items-center py-4 px-4 border-2 border-[#3BB9FF] rounded-full cursor-pointer duration-300 ease-in-out hover:text-white after:absolute after:contain-[''] after:top-0 after:left-0 after:h-full after:w-[30%] after:rounded-full after:bg-[#3BB9FF] after:duration-300 after:ease-in-out after:hover:w-full ">
+                 <div className=" relative  flex justify-between lg:w-[40%] w-[70%] items-center py-4 px-4 border-2 border-[#3BB9FF] rounded-full cursor-pointer duration-300 ease-in-out hover:text-white after:absolute after:contain-[''] after:top-0 after:left-0 after:h-full after:w-[25%] after:rounded-full after:bg-[#3BB9FF] after:duration-300 after:ease-in-out after:hover:w-full ">
                   <IoIosCodeDownload className='text-[36px] text-white z-50'/>
-                  <h3 className='font-serif text-[18px] font-medium mr-2 z-50  '><a href="/assets/dipok chandra.pdf " ></a>Downlode CV</h3>
+                  <a href="dipok-chandra.pdf" download className='font-serif text-[18px] font-medium mr-8 z-50 '>Downlode CV</a>
+                
+                  
                 </div>
                 </div>
+                
             </div>
             <div className="lg:w-[45%] w-full lg:mt-[70px] mt-6 ">
               <div className=" lg:flex justify-around">

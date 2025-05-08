@@ -19,8 +19,8 @@ const Header = () => {
 
     return (
         <>
-            <header className='py-6 px-3 bg-[red] '>
-                <Container >
+            <header className='fixed top-0 left-0 w-full z-50 bg-[#FFF9E3] animate-slideIn pt-3'>
+                <Container className=" py-6 px-10 rounded-full border-2 border-[#000] " >
                     <Flex className=" justify-center items-center">
                         <div className="w-[25%]">
                            <div className="">

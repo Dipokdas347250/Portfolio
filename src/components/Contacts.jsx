@@ -17,7 +17,7 @@ const Contacts = () => {
             <h3 className='text-center font-semibold lg:text-[56px] text-[36px] font-serif lg:mt-[-125px] mt-[-70px] relative after:absolute after:contain-[""] after:h-[2px] lg:after:w-[350px] after:w-[230px]  after:bottom-0 after:left-[50%] after:translate-x-[-50%] after:bg-[#000] '>Get <span className='text-[#3BB9FF]'> in touch!</span> </h3>
           </div>
           <div className=" lg:flex justify-between mt-16">
-            <div className="lg:w-[35%] w-full">
+            <div className="lg:w-[30%] w-full">
               <div className="">
                 <h2 className='text-[#000] font-bold text-[36px]'>Don't be shy !</h2>
                 <p className='text-[#000] font-semibold text-[20px]'>Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.</p>
@@ -28,7 +28,7 @@ const Contacts = () => {
                 </div>
                 <div className="">
                   <h2 className='text-[#000] font-semibold text-[18px] opacity-70'>Email Me</h2>
-                  <h3 className='text-[#000] font-semibold text-[18px]'>abcd@gmail.com</h3>
+                  <h3 className='text-[#000] font-semibold text-[18px]'>dipakdas24680@gmail.com</h3>
                 </div>
               </div>
               <div className=" flex items-center mt-11 gap-4">
@@ -37,7 +37,7 @@ const Contacts = () => {
                 </div>
                 <div className="">
                   <h2 className='text-[#000] font-semibold text-[18px] opacity-70'>Call Me</h2>
-                  <h3 className='text-[#000] font-semibold text-[18px]'>+88017123456678</h3>
+                  <h3 className='text-[#000] font-semibold text-[18px]'>+8801871118902</h3>
                 </div>
               </div>
               <div className="flex lg:gap-x-10 gap-x-5 mt-5 ">
@@ -71,8 +71,9 @@ const Contacts = () => {
 
                   </div>
               </form>
-              <div className=" ml-3 mt-8 relative  flex justify-between lg:w-[30%] w-[80%] items-center py-4 px-4 border-2 border-[#3BB9FF] rounded-full cursor-pointer duration-300 ease-in-out hover:text-white after:absolute after:contain-[''] after:top-0 after:right-0 after:h-full after:w-[28%] after:rounded-full after:bg-[#3BB9FF] after:duration-300 after:ease-in-out after:hover:w-full ">
-                  <h3 className='font-serif text-[18px] font-medium mr-2 z-50  '>Send Messege </h3>
+              <div className=" ml-3 mt-8 relative  flex justify-between lg:w-[30%] w-[80%] items-center py-4 px-4 border-2 border-[#3BB9FF] rounded-full cursor-pointer duration-300 ease-in-out hover:text-white after:absolute after:contain-[''] after:top-0 after:right-0 after:h-full after:w-[23%] after:rounded-full after:bg-[#3BB9FF] after:duration-300 after:ease-in-out after:hover:w-full ">
+                  <h3 className='font-serif text-[18px] font-medium ml-8 z-50  '>Send Messege </h3>
+                  
                   <RiSendPlaneFill className='text-[36px] text-white z-50'/>
                 </div>
             </div>
